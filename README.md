@@ -1,21 +1,22 @@
-````md
-# ✨ Bless Investments
-
 <div align="center">
+
+# ✨ Bless Investments
 
 ### 🟡 Digital Bullion Investment Simulator
 
-*Experience the future of precious metal investing in a risk-free virtual environment.*
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=28&pause=1000&color=FFD700&center=true&vCenter=true&width=900&lines=Digital+Bullion+Investment+Simulator;Trade+Gold+%26+Silver+Virtually;Track+Portfolio+Performance;Learn+Investing+Without+Risk" />
 
-![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)
-![Bun](https://img.shields.io/badge/Bun-Runtime-black?style=for-the-badge)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-cyan?style=for-the-badge&logo=tailwindcss)
-![Zustand](https://img.shields.io/badge/Zustand-State_Management-orange?style=for-the-badge)
+<br>
 
----
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite,bun,git,github" />
 
-### Learn • Simulate • Analyze • Invest
+<br><br>
+
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-1.0-gold?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
+
+### 💰 Learn • Simulate • Analyze • Invest
 
 </div>
 
@@ -23,150 +24,133 @@
 
 ## 🌟 Overview
 
-**Bless Investments** is a modern fintech prototype that simulates digital bullion investing through an elegant and interactive user experience.
+**Bless Investments** is a modern fintech prototype designed to simulate digital bullion investing through an elegant and interactive user experience.
 
-Designed as a safe sandbox environment, the platform allows users to explore how gold and precious metal investments work without risking real money.
+The platform allows users to buy, sell, and track virtual precious metals using simulated market data and virtual funds. Built as a safe sandbox environment, it helps users understand the mechanics of digital gold investing without risking real money.
 
-Using virtual funds, simulated market rates, and time-advancement forecasting, users can experiment with investment strategies, monitor portfolio performance, and understand long-term wealth-building concepts.
+### Current Features
 
-### Current Status
+✅ Virtual Wallet System
 
-🟢 Prototype / Educational Simulation
+✅ Gold & Silver Trading
 
-All transactions, rates, profits, and balances are generated using mock data for demonstration purposes.
+✅ Live Simulated Market Rates
 
-No real money is processed.
+✅ Portfolio Tracking
+
+✅ Profit / Loss Analytics
+
+✅ Transaction History
+
+✅ Time Advancement Simulation
+
+✅ Responsive Modern UI
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
 ### 🔐 Authentication
 
-- Login Flow
-- Session Management
-- Protected Routes
-- User Portfolio Access
+Secure user access with protected routes and personalized investment portfolios.
 
 ### 📊 Smart Dashboard
 
-Monitor your virtual wealth from a single location.
+Monitor your investment performance from a centralized dashboard.
 
 - Wallet Balance
-- Total Portfolio Value
+- Portfolio Value
 - Active Holdings
+- Market Trends
 - Live Bullion Rates
-- Market Status Indicators
 
 ### 🪙 Digital Bullion Trading
 
-Supported Assets:
+Simulate investing in precious metals.
+
+#### Supported Assets
 
 - Gold
 - Silver
 
-Planned Assets:
+#### Planned Assets
 
 - Platinum
 - Palladium
 
-### ⚡ Live Market Simulation
+### 📈 Profit & Loss Analytics
 
-- Simulated Rate Feeds
-- Price Volatility
-- Trend Indicators
-- Real-Time Updates
+Analyze investment performance with:
 
-### 📈 Interactive Analytics
-
-- Profit/Loss Tracking
 - Portfolio Growth
-- Investment History
-- Future Value Estimation
+- Unrealized Profit
+- Historical Performance
+- Future Projections
 
 ### 📜 Transaction Ledger
 
-Track:
+Track all activities including:
 
 - Buy Orders
 - Sell Orders
 - Holdings History
 - Investment Timeline
 
-### ⏩ Time Travel Engine
+### ⏩ Time Travel Simulation
 
-Fast-forward:
+Advance days, months, or years into the future and visualize how your investments could perform under simulated market conditions.
 
-- Days
-- Weeks
-- Months
-- Years
+### 🎨 Luxury UI Experience
 
-Visualize future portfolio performance instantly.
+Designed with:
 
-### 🎨 Premium Bullion Theme
-
-- Gold Accents
-- Silver Highlights
+- Gold & Silver Theme
 - Smooth Animations
-- Modern Dashboard Design
 - Responsive Layout
+- Modern FinTech Aesthetics
 
 ---
 
 ## 🏗️ Architecture
 
-```text
-┌─────────────────────┐
-│      React UI       │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Zustand State Layer │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│   Mock API Server   │
-│     (server.ts)     │
-└──────────┬──────────┘
-           │
-           ▼
-┌─────────────────────┐
-│ Simulated Bullion   │
-│ Rates & Trades      │
-└─────────────────────┘
-````
+```mermaid
+flowchart TD
+
+A[React Frontend]
+--> B[Zustand State Management]
+
+B --> C[Trading Engine]
+
+C --> D[Mock API Server]
+
+D --> E[Bullion Rate Simulator]
+
+E --> F[Portfolio Analytics]
+```
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
+
+<div align="center">
 
 ### Frontend
 
-* React
-* TypeScript
-* Vite
-* TailwindCSS
-* Zustand
-* TanStack Router
-* Framer Motion
-* Chart.js
+<img src="https://skillicons.dev/icons?i=react,ts,tailwind,vite" />
+
+### State Management
+
+<img src="https://img.shields.io/badge/Zustand-State%20Management-orange?style=for-the-badge" />
 
 ### Backend
 
-* Bun Runtime
-* TypeScript
-* Mock API Server
-* Simulated Trading Engine
+<img src="https://skillicons.dev/icons?i=bun,nodejs" />
 
 ### Development Tools
 
-* ESLint
-* Prettier
-* Git
-* GitHub
+<img src="https://skillicons.dev/icons?i=git,github,vscode" />
+
+</div>
 
 ---
 
@@ -209,8 +193,7 @@ src
 ### Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/bless-investments.git
-
+git clone https://github.com/YOUR_USERNAME/bless-investments.git
 cd bless-investments
 ```
 
@@ -226,7 +209,7 @@ bun install
 bun run dev
 ```
 
-Application will be available at:
+Open:
 
 ```bash
 http://localhost:5173
@@ -234,69 +217,95 @@ http://localhost:5173
 
 ---
 
-## 🔮 Roadmap
+## 📸 Screenshots
+
+### Dashboard
+
+> Add screenshot here
+
+```md
+![Dashboard](assets/dashboard.png)
+```
+
+### Trading
+
+```md
+![Trading](assets/trading.png)
+```
+
+### History
+
+```md
+![History](assets/history.png)
+```
+
+---
+
+## 🛣️ Roadmap
 
 ### Phase 1 — Prototype
 
-* [x] Authentication
-* [x] Dashboard
-* [x] Trading Interface
-* [x] Transaction History
-* [x] Simulated Market Rates
-* [x] State Management
+- [x] Authentication
+- [x] Dashboard
+- [x] Trading Interface
+- [x] Transaction History
+- [x] Market Simulation
+- [x] State Management
 
-### Phase 2 — Enhanced Simulation
+### Phase 2 — Advanced Features
 
-* [ ] AI Investment Suggestions
-* [ ] Market Event Simulations
-* [ ] Advanced Portfolio Analytics
-* [ ] Watchlists
+- [ ] AI Investment Suggestions
+- [ ] Market Event Simulation
+- [ ] Watchlists
+- [ ] Advanced Analytics
 
 ### Phase 3 — Real Market Integration
 
-* [ ] Live Bullion APIs
-* [ ] Real-Time Gold Pricing
-* [ ] Automated Rate Synchronization
-* [ ] Price Alerts
+- [ ] Real-Time Bullion APIs
+- [ ] Price Alerts
+- [ ] Live Market Data
+- [ ] Automated Rate Sync
 
 ### Phase 4 — Production Platform
 
-* [ ] KYC Verification
-* [ ] Secure Payment Gateway
-* [ ] Real Asset Purchases
-* [ ] Regulatory Compliance
-* [ ] Mobile Application
+- [ ] KYC Verification
+- [ ] Payment Gateway Integration
+- [ ] Real Gold Purchases
+- [ ] Mobile Application
 
 ---
 
 ## 🎯 Project Goals
 
-Bless Investments was created to explore:
+This project explores:
 
-* FinTech Product Development
-* Digital Asset Management
-* Financial Simulations
-* Investment Analytics
-* Modern React Architecture
-* Scalable State Management
+- FinTech Product Development
+- Digital Asset Management
+- Investment Simulations
+- Financial Analytics
+- Modern React Architecture
+- Scalable State Management
 
 ---
 
 ## ⚠️ Disclaimer
 
-Bless Investments is currently an educational and demonstration project.
+Bless Investments is currently a simulation platform.
 
-No real financial transactions occur within the platform.
+No real financial transactions occur within the application.
 
-All balances, market prices, profits, losses, and investment outcomes are simulated for learning and experimentation purposes only.
+All balances, rates, profits, losses, and investment outcomes are generated using mock data for educational and demonstration purposes only.
 
 ---
 
+<div align="center">
+
 ## 👨‍💻 Developer
 
-Built with ❤️ by **Chris Jeyan**
+### Chris Jeyan
 
-> "Making precious metal investing understandable, interactive, and accessible."
+💛 Building the future of digital bullion investing.
 
-```
-```
+⭐ If you like this project, consider giving it a star.
+
+</div>
