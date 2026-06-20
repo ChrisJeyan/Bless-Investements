@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="./assets/banner.png" alt="Bless Investments Banner" width="100%">
-</p>
-<div align="center">
-
+<img src="./banner.png" width="100%">
 # ✨ Bless Investments
 
 ### 🟡 Digital Bullion Investment Simulator
