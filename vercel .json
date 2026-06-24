@@ -1,14 +1,8 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "vite build",
-  "installCommand": "npm install",
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist/client",
   "framework": null,
-  "build": {
-    "env": {
-      "NITRO_PRESET": "vercel"
-    }
-  },
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
